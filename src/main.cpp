@@ -2786,9 +2786,9 @@ bool LoadBlockIndex(bool fAllowNew)
         //    CTxOut(empty)
         //  vMerkleTree: 4cb33b3b6a
 
-        const string strTimestamp = "https://bitcointalk.org/index.php?topic=134179.msg1502196#msg1502196";
+        const string strTimestamp = "Blessing for the Sichuan Jiuzhaigou earthquake in Aug. 8th 2017";
         CTransaction txNew;
-        txNew.nTime = 1360105017;
+        txNew.nTime = 1502348936;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>(strTimestamp.begin(), strTimestamp.end());
@@ -2798,12 +2798,31 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1360105017;
+        block.nTime    = 1502348936;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 1575379 : 46534;
+        block.nNonce   = !fTestNet ? 770191 : 46534;
+
+        /*CBigNum bnTarget;
+        bnTarget.SetCompact(block.nBits);
+        while (block.GetHash() > bnTarget.getuint256())
+        {
+             if (fRequestShutdown)
+                 return false;
+             if (block.nNonce % 1048576 == 0)
+                 printf("n=%dM hash=%s\n", block.nNonce / 1048576,
+                        block.GetHash().ToString().c_str());
+             block.nNonce++;
+         }
+      
+         printf("Genesis Block Found:\n");
+         printf("genesis hash=%s\n", block.GetHash().ToString().c_str());
+         printf("merkle root=%s\n", block.hashMerkleRoot.ToString().c_str());
+         block.print();
+      
+         printf("End Genesis Block\n");*/
 
         //// debug print
-        assert(block.hashMerkleRoot == uint256("0x4cb33b3b6a861dcbc685d3e614a9cafb945738d6833f182855679f2fad02057b"));
+        assert(block.hashMerkleRoot == uint256("22aa0f0a24471b57cd85ca0529eb1b57fd54404a1cae54db7f5d042ef4b52ccc"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
@@ -3109,7 +3128,7 @@ bool static AlreadyHave(CTxDB& txdb, const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xe4, 0xe8, 0xe9, 0xe5 };
+unsigned char pchMessageStart[4] = { 0xcd, 0xec, 0xf6, 0xe5 };
 
 bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 {
