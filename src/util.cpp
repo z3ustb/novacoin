@@ -1096,7 +1096,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.novacoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "NovaCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "ZUC";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1108,10 +1108,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "NovaCoin";
+    return pathRet / "ZUC";
 #else
     // Unix
-    return pathRet / ".novacoin";
+    return pathRet / ".zuc";
 #endif
 #endif
 }
@@ -1184,7 +1184,7 @@ void createConf()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "novacoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "zuc.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
