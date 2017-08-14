@@ -93,7 +93,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     optionsDialog(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("NovaCoin") + " - " + tr("Wallet"));
+    setWindowTitle(tr("ZUC") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));

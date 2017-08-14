@@ -2800,7 +2800,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1502348936;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 770191 : 46534;
+        block.nNonce   = !fTestNet ? 770191 : 118902;
 
         /*CBigNum bnTarget;
         bnTarget.SetCompact(block.nBits);
