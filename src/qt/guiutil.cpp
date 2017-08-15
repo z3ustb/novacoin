@@ -111,7 +111,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // ZUC: check prefix
+    // NovaCoin: check prefix
     if(uri.scheme() != QString("zuc"))
         return false;
 

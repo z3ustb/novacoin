@@ -1854,7 +1854,7 @@ Value repairwallet(const Array& params, bool fHelp)
     return result;
 }
 
-// ZUC: resend unconfirmed wallet transactions
+// NovaCoin: resend unconfirmed wallet transactions
 Value resendtx(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 1)
