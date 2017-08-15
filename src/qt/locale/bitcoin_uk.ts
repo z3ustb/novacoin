@@ -4256,7 +4256,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
-        <source>Send command to -server or novacoind</source>
+        <source>Send command to -server or zucd</source>
         <translation>Відправити команду серверу -server чи демону
 </translation>
     </message>
@@ -4343,8 +4343,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="153"/>
-        <source>Specify pid file (default: novacoind.pid)</source>
-        <translation>Вкажіть pid-файл (за промовчуванням: novacoind.pid)
+        <source>Specify pid file (default: zucd.pid)</source>
+        <translation>Вкажіть pid-файл (за промовчуванням: zucd.pid)
 </translation>
     </message>
     <message>
