@@ -70,7 +70,7 @@ void Shutdown(void* parg)
     static bool fTaken;
 
     // Make this thread recognisable as the shutdown thread
-    RenameThread("novacoin-shutoff");
+    RenameThread("zuc-shutoff");
 
     bool fFirstThread = false;
     {
@@ -166,7 +166,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "novacoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "zuc:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -233,7 +233,7 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n" +
         "  -?                     " + _("This help message") + "\n" +
-        "  -conf=<file>           " + _("Specify configuration file (default: novacoin.conf)") + "\n" +
+        "  -conf=<file>           " + _("Specify configuration file (default: zuc.conf)") + "\n" +
         "  -pid=<file>            " + _("Specify pid file (default: zucd.pid)") + "\n" +
         "  -datadir=<dir>         " + _("Specify data directory") + "\n" +
         "  -wallet=<file>         " + _("Specify wallet file (within data directory)") + "\n" +

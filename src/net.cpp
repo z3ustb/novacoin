@@ -361,7 +361,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-    RenameThread("novacoin-ext-ip");
+    RenameThread("zuc-ext-ip");
 
     CNetAddr addrLocalHost;
     if (GetMyExternalIP(addrLocalHost))
@@ -619,7 +619,7 @@ void Release(CNode* node) {
 void ThreadSocketHandler(void* parg)
 {
     // Make this thread recognisable as the networking thread
-    RenameThread("novacoin-net");
+    RenameThread("zuc-net");
 
     try
     {
@@ -980,7 +980,7 @@ static const char *strDNSSeed[][2] = {
 void ThreadDNSAddressSeed(void* parg)
 {
     // Make this thread recognisable as the DNS seeding thread
-    RenameThread("novacoin-dnsseed");
+    RenameThread("zuc-dnsseed");
 
     try
     {
@@ -1118,7 +1118,7 @@ void ThreadDumpAddress2(void* parg)
 void ThreadDumpAddress(void* parg)
 {
     // Make this thread recognisable as the address dumping thread
-    RenameThread("novacoin-adrdump");
+    RenameThread("zuc-adrdump");
 
     try
     {
@@ -1133,7 +1133,7 @@ void ThreadDumpAddress(void* parg)
 void ThreadOpenConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("novacoin-opencon");
+    RenameThread("zuc-opencon");
 
     try
     {
@@ -1306,7 +1306,7 @@ void ThreadOpenConnections2(void* parg)
 void ThreadOpenAddedConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("novacoin-opencon");
+    RenameThread("zuc-opencon");
 
     try
     {
@@ -1483,7 +1483,7 @@ void static StartSync(const vector<CNode*> &vNodes) {
 void ThreadMessageHandler(void* parg)
 {
     // Make this thread recognisable as the message handling thread
-    RenameThread("novacoin-msghand");
+    RenameThread("zuc-msghand");
 
     try
     {
@@ -1723,7 +1723,7 @@ void static Discover()
 void StartNode(void* parg)
 {
     // Make this thread recognisable as the startup thread
-    RenameThread("novacoin-start");
+    RenameThread("zuc-start");
 
     if (semOutbound == NULL) {
         // initialize semaphore

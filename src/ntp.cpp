@@ -461,7 +461,7 @@ void ThreadNtpSamples(void* parg) {
     vnThreadsRunning[THREAD_NTP]++;
 
     // Make this thread recognisable as time synchronization thread
-    RenameThread("novacoin-ntp-samples");
+    RenameThread("zuc-ntp-samples");
 
     CMedianFilter<int64_t> vTimeOffsets(200,0);
 
