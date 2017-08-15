@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About NovaCoin</source>
-        <translation>About NovaCoin</translation>
+        <source>About ZUC</source>
+        <translation>About ZUC</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="56"/>
-        <source>&lt;b&gt;NovaCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;NovaCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;ZUC&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ZUC&lt;/b&gt; version</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
@@ -20,12 +20,12 @@
 Copyright © 2011-2012 The PPCoin Developers
 Copyright © 2014 The Peerunity Developers
 Copyright © 2014 The EmerCoin Developers
-Copyright © 2012-2016 The NovaCoin developers</source>
+Copyright © 2012-2016 The ZUC developers</source>
         <translation>Copyright © 2009-2016 The Bitcoin developers
 Copyright © 2011-2012 The PPCoin Developers
 Copyright © 2014 The Peerunity Developers
 Copyright © 2014 The EmerCoin Developers
-Copyright © 2012-2016 The NovaCoin developers</translation>
+Copyright © 2012-2016 The ZUC developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="114"/>
@@ -46,8 +46,8 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your NovaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your NovaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your ZUC addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your ZUC addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -81,8 +81,8 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="102"/>
-        <source>Sign a message to prove you own a NovaCoin address</source>
-        <translation>Sign a message to prove you own a NovaCoin address</translation>
+        <source>Sign a message to prove you own a ZUC address</source>
+        <translation>Sign a message to prove you own a ZUC address</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="105"/>
@@ -91,8 +91,8 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="116"/>
-        <source>Verify a message to ensure it was signed with a specified NovaCoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified NovaCoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified ZUC address</source>
+        <translation>Verify a message to ensure it was signed with a specified ZUC address</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="119"/>
@@ -243,8 +243,8 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="116"/>
-        <source>NovaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>NovaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <source>ZUC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ZUC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="120"/>
@@ -296,8 +296,8 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="178"/>
-        <source>NovaCoin will close now to finish the decryption process. </source>
-        <translation>NovaCoin will close now to finish the decryption process. </translation>
+        <source>ZUC will close now to finish the decryption process. </source>
+        <translation>ZUC will close now to finish the decryption process. </translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="189"/>
@@ -315,14 +315,14 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoin.cpp" line="146"/>
-        <source>A fatal error occurred. NovaCoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. NovaCoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. ZUC can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. ZUC can no longer continue safely and will quit.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
         <location filename="../bitcoingui.cpp" line="736"/>
-        <source>NovaCoin</source>
-        <translation>NovaCoin</translation>
+        <source>ZUC</source>
+        <translation>ZUC</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
@@ -346,8 +346,8 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
-        <source>Send coins to a NovaCoin address</source>
-        <translation>Send coins to a NovaCoin address</translation>
+        <source>Send coins to a ZUC address</source>
+        <translation>Send coins to a ZUC address</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -411,13 +411,13 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="303"/>
-        <source>&amp;About NovaCoin</source>
-        <translation>&amp;About NovaCoin</translation>
+        <source>&amp;About ZUC</source>
+        <translation>&amp;About ZUC</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="304"/>
-        <source>Show information about NovaCoin</source>
-        <translation>Show information about NovaCoin</translation>
+        <source>Show information about ZUC</source>
+        <translation>Show information about ZUC</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="307"/>
@@ -437,8 +437,8 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="314"/>
-        <source>Modify configuration options for NovaCoin</source>
-        <translation>Modify configuration options for NovaCoin</translation>
+        <source>Modify configuration options for ZUC</source>
+        <translation>Modify configuration options for ZUC</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="316"/>
@@ -614,15 +614,15 @@ Copyright © 2012-2016 The NovaCoin developers</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="445"/>
         <location filename="../bitcoingui.cpp" line="513"/>
-        <source>NovaCoin client</source>
-        <translation>NovaCoin client</translation>
+        <source>ZUC client</source>
+        <translation>ZUC client</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="586"/>
-        <source>%n active connection(s) to NovaCoin network</source>
+        <source>%n active connection(s) to ZUC network</source>
         <translation>
-            <numerusform>%n active connection to NovaCoin network</numerusform>
-            <numerusform>%n active connections to NovaCoin network</numerusform>
+            <numerusform>%n active connection to ZUC network</numerusform>
+            <numerusform>%n active connections to ZUC network</numerusform>
         </translation>
     </message>
     <message>
@@ -791,8 +791,8 @@ Address: %4
     <message>
         <location filename="../bitcoingui.cpp" line="982"/>
         <location filename="../bitcoingui.cpp" line="997"/>
-        <source>URI can not be parsed! This can be caused by an invalid NovaCoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid NovaCoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ZUC address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid ZUC address or malformed URI parameters.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1016"/>
@@ -1234,8 +1234,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="103"/>
-        <source>The entered address &quot;%1&quot; is not a valid NovaCoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid NovaCoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ZUC address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid ZUC address.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="108"/>
@@ -1286,8 +1286,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="476"/>
         <location filename="../guiutil.cpp" line="488"/>
-        <source>NovaCoin-Qt</source>
-        <translation>NovaCoin-Qt</translation>
+        <source>ZUC-Qt</source>
+        <translation>ZUC-Qt</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="476"/>
@@ -1980,13 +1980,13 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="86"/>
-        <source>Automatically start NovaCoin after logging in to the system.</source>
-        <translation>Automatically start NovaCoin after logging in to the system.</translation>
+        <source>Automatically start ZUC after logging in to the system.</source>
+        <translation>Automatically start ZUC after logging in to the system.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="89"/>
-        <source>&amp;Start NovaCoin on system login</source>
-        <translation>&amp;Start NovaCoin on system login</translation>
+        <source>&amp;Start ZUC on system login</source>
+        <translation>&amp;Start ZUC on system login</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="96"/>
@@ -2005,8 +2005,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="126"/>
-        <source>Connect to the NovaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the NovaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the ZUC network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the ZUC network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="129"/>
@@ -2115,8 +2115,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="425"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting NovaCoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting NovaCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ZUC.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting ZUC.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="436"/>
@@ -2130,8 +2130,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="458"/>
-        <source>Whether to show NovaCoin addresses in the transaction list or not.</source>
-        <translation>Whether to show NovaCoin addresses in the transaction list or not.</translation>
+        <source>Whether to show ZUC addresses in the transaction list or not.</source>
+        <translation>Whether to show ZUC addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="461"/>
@@ -2192,8 +2192,8 @@ Reduce the number of addresses involved in the address creation.</translation>
         <location filename="../optionsdialog.cpp" line="251"/>
         <location filename="../optionsdialog.cpp" line="260"/>
         <location filename="../optionsdialog.cpp" line="269"/>
-        <source>This setting will take effect after restarting NovaCoin.</source>
-        <translation>This setting will take effect after restarting NovaCoin.</translation>
+        <source>This setting will take effect after restarting ZUC.</source>
+        <translation>This setting will take effect after restarting ZUC.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="299"/>
@@ -2226,8 +2226,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     <message>
         <location filename="../forms/overviewpage.ui" line="46"/>
         <location filename="../forms/overviewpage.ui" line="365"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NovaCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the NovaCoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ZUC network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the ZUC network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="225"/>
@@ -2438,8 +2438,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>NovaCoin - Debug window</source>
-        <translation>NovaCoin - Debug window</translation>
+        <source>ZUC - Debug window</source>
+        <translation>ZUC - Debug window</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -2478,8 +2478,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="95"/>
-        <source>Open the NovaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the NovaCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the ZUC debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the ZUC debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="98"/>
@@ -2493,8 +2493,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="147"/>
-        <source>Show the NovaCoin-Qt help message to get a list with possible NovaCoin command-line options.</source>
-        <translation>Show the NovaCoin-Qt help message to get a list with possible NovaCoin command-line options.</translation>
+        <source>Show the ZUC-Qt help message to get a list with possible ZUC command-line options.</source>
+        <translation>Show the ZUC-Qt help message to get a list with possible ZUC command-line options.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="150"/>
@@ -2558,8 +2558,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="383"/>
-        <source>NovaCoin Core</source>
-        <translation>NovaCoin Core</translation>
+        <source>ZUC Core</source>
+        <translation>ZUC Core</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="406"/>
@@ -2568,8 +2568,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="426"/>
-        <source>Open the NovaCoin configuration file from the current data directory.</source>
-        <translation>Open the NovaCoin configuration file from the current data directory.</translation>
+        <source>Open the ZUC configuration file from the current data directory.</source>
+        <translation>Open the ZUC configuration file from the current data directory.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="429"/>
@@ -2613,8 +2613,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="325"/>
-        <source>Welcome to the NovaCoin RPC console.</source>
-        <translation>Welcome to the NovaCoin RPC console.</translation>
+        <source>Welcome to the ZUC RPC console.</source>
+        <translation>Welcome to the ZUC RPC console.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="326"/>
@@ -2722,8 +2722,8 @@ Reduce the number of addresses involved in the address creation.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this NovaCoin address</source>
-        <translation type="obsolete">Sign the message to prove you own this NovaCoin address</translation>
+        <source>Sign the message to prove you own this ZUC address</source>
+        <translation type="obsolete">Sign the message to prove you own this ZUC address</translation>
     </message>
     <message>
         <location filename="../forms/secondauthdialog.ui" line="145"/>
@@ -2742,8 +2742,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="29"/>
-        <source>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation type="unfinished">Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a ZUC address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation type="unfinished">Enter a ZUC address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="30"/>
@@ -2950,8 +2950,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="43"/>
-        <source>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a ZUC address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Enter a ZUC address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="57"/>
@@ -3110,8 +3110,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a ZUC address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Enter a ZUC address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
 </context>
 <context>
@@ -3171,8 +3171,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="148"/>
-        <source>Sign the message to prove you own this NovaCoin address</source>
-        <translation>Sign the message to prove you own this NovaCoin address</translation>
+        <source>Sign the message to prove you own this ZUC address</source>
+        <translation>Sign the message to prove you own this ZUC address</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="165"/>
@@ -3203,8 +3203,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="294"/>
-        <source>Verify the message to ensure it was signed with the specified NovaCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified NovaCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified ZUC address</source>
+        <translation>Verify the message to ensure it was signed with the specified ZUC address</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="311"/>
@@ -3214,8 +3214,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="29"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a ZUC address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Enter a ZUC address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="30"/>
@@ -3224,8 +3224,8 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="33"/>
-        <source>Enter NovaCoin signature</source>
-        <translation>Enter NovaCoin signature</translation>
+        <source>Enter ZUC signature</source>
+        <translation>Enter ZUC signature</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -3840,8 +3840,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="26"/>
-        <source>Cannot obtain a lock on data directory %s.  NovaCoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s.  NovaCoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s.  ZUC is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s.  ZUC is probably already running.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="29"/>
@@ -3890,8 +3890,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
-        <source>Unable to bind to %s on this computer. NovaCoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. NovaCoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. ZUC is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. ZUC is probably already running.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="56"/>
@@ -3900,8 +3900,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NovaCoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NovaCoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ZUC will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ZUC will not work properly.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="62"/>
@@ -4029,8 +4029,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of NovaCoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of NovaCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ZUC</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of ZUC</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
@@ -4174,13 +4174,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="124"/>
-        <source>NovaCoin version</source>
-        <translation>NovaCoin version</translation>
+        <source>ZUC version</source>
+        <translation>ZUC version</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="125"/>
-        <source>NovaCoin</source>
-        <translation>NovaCoin</translation>
+        <source>ZUC</source>
+        <translation>ZUC</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
@@ -4401,8 +4401,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="169"/>
-        <source>Wallet needed to be rewritten: restart NovaCoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart NovaCoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart ZUC to complete</source>
+        <translation>Wallet needed to be rewritten: restart ZUC to complete</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="170"/>
