@@ -302,10 +302,10 @@ void ThreadIRCSeed2(void* parg)
         }
 
         if (fTestNet) {
-            Send(hSocket, "JOIN #novacoinTEST2\r");
-            Send(hSocket, "WHO #novacoinTEST2\r");
+            Send(hSocket, "JOIN #zucTEST2\r");
+            Send(hSocket, "WHO #zucTEST2\r");
         } else {
-            // randomly join #novacoin00-#novacoin05
+            // randomly join #zuc00-#zuc05
             // int channel_number = GetRandInt(5);
 
             // Channel number is always 0 for initial release

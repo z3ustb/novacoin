@@ -3818,7 +3818,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=novacoinrpc
+rpcuser=zucrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -3826,7 +3826,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, ви повинні встановити rpcpassword в файлі конфігурації:
 %s
 Рекомендується використати такий випадковий пароль:
-rpcuser=novacoinrpc
+rpcuser=zucrpc
 rpcpassword=%s
 (ви не повинні пам&apos;ятати цей пароль)
 Ім’я користувача та пароль ПОВИННІ бути різними.
