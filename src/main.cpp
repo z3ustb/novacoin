@@ -1010,8 +1010,19 @@ CBigNum inline GetProofOfStakeLimit(int nHeight, unsigned int nTime)
 }
 
 // miner's coin base reward based on nBits
+int64_t CheckProofOfWorkReward(int nHeight, unsigned int nBits, int64_t nFees)
+{
+    if(nHeight >= 1 && nHeight <=4)
+        return MAX_MONEY/4;
+    return GetProofOfWorkReward(nBits, nFees);
+}
+
+// miner's coin base reward based on nBits
 int64_t GetProofOfWorkReward(unsigned int nBits, int64_t nFees)
 {
+    if(nBestHeight >= 1 && nBestHeight <=4)
+        return MAX_MONEY/4;
+
     CBigNum bnSubsidyLimit = MAX_MINT_PROOF_OF_WORK;
 
     CBigNum bnTarget;
@@ -1764,7 +1775,7 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
 
     if (IsProofOfWork())
     {
-        int64_t nBlockReward = GetProofOfWorkReward(nBits, nFees);
+        int64_t nBlockReward = CheckProofOfWorkReward(pindex->nHeight, nBits, nFees);
 
         // Check coinbase reward
         if (vtx[0].GetValueOut() > nBlockReward)
@@ -2331,7 +2342,7 @@ bool CBlock::AcceptBlock()
         return DoS(100, error("AcceptBlock() : incorrect %s", IsProofOfWork() ? "proof-of-work" : "proof-of-stake"));
 
     int64_t nMedianTimePast = pindexPrev->GetMedianTimePast();
-    int nMaxOffset = 12 * nOneHour; // 12 hours
+    int nMaxOffset = 24 * nOneHour; // 24 hours
     if (fTestNet || pindexPrev->nTime < 1450569600)
         nMaxOffset = 7 * nOneWeek; // One week (permanently on testNet or until 20 Dec, 2015 on mainNet)
 
