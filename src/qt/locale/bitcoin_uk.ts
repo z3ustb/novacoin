@@ -3886,8 +3886,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="46"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8344 or testnet: 18344)</source>
-        <translation>Прослуховувати &lt;port&gt; для JSON-RPC з&apos;єднань (типово: 8344, для тестової мережі: 18344)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8355 or testnet: 18355)</source>
+        <translation>Прослуховувати &lt;port&gt; для JSON-RPC з&apos;єднань (типово: 8355, для тестової мережі: 18355)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
@@ -4154,8 +4154,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="117"/>
-        <source>Listen for connections on &lt;port&gt; (default: 7777 or testnet: 17777)</source>
-        <translation>Чекати на з&apos;єднання на &lt;port&gt; (типово: 7777, для тестової мережі: 17777)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7788 or testnet: 17788)</source>
+        <translation>Чекати на з&apos;єднання на &lt;port&gt; (типово: 7788, для тестової мережі: 17788)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="118"/>

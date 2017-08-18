@@ -3877,8 +3877,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="46"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8344 or testnet: 18344)</source>
-        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 8344 or testnet: 18344)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8355 or testnet: 18355)</source>
+        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 8355 or testnet: 18355)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
@@ -4141,8 +4141,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="117"/>
-        <source>Listen for connections on &lt;port&gt; (default: 7777 or testnet: 17777)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 7777 or testnet: 17777)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7788 or testnet: 17788)</source>
+        <translation>Listen for connections on &lt;port&gt; (default: 7788 or testnet: 17788)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="118"/>
