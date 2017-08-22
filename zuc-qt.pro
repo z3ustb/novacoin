@@ -32,8 +32,8 @@ win32-g++-cross: QMAKE_TARGET.arch = $$TARGET_PLATFORM
 #BOOST_LIB_SUFFIX=-mgw49-mt-s-1_55
 #BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
 #BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
-BDB_INCLUDE_PATH=/opt/local/include/db48
-BDB_LIB_PATH=/opt/local/lib/db48
+#BDB_INCLUDE_PATH=C:/deps/db-6.0.20/build_unix
+#BDB_LIB_PATH=C:/deps/db-6.0.20/build_unix
 #OPENSSL_INCLUDE_PATH=C:/d1eps/openssl-1.0.2g/include
 #OPENSSL_LIB_PATH=C:/deps/openssl-1.0.2g
 #QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
@@ -427,7 +427,7 @@ isEmpty(BOOST_THREAD_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_LIB_PATH) {
-    macx:BDB_LIB_PATH = /usr/local/BerkeleyDB.6.1/lib
+    macx:BDB_LIB_PATH = /opt/local/lib/db48
 }
 
 isEmpty(OPENSSL_LIB_PATH) {
@@ -439,7 +439,7 @@ isEmpty(BDB_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_INCLUDE_PATH) {
-    macx:BDB_INCLUDE_PATH = /opt/local/include/db60
+    macx:BDB_INCLUDE_PATH = /opt/local/include/db48
 }
 
 isEmpty(OPENSSL_INCLUDE_PATH) {
