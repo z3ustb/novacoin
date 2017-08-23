@@ -326,11 +326,11 @@ void BitcoinGUI::createActions()
     changePassphraseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passphrase..."), this);
     changePassphraseAction->setStatusTip(tr("Change the passphrase used for wallet encryption"));
     signMessageAction = new QAction(QIcon(":/icons/edit"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your Novacoin addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your ZUC addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Novacoin addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified ZUC addresses"));
     secondAuthAction = new QAction(QIcon(":/icons/key"), tr("Second &auth..."), this);
-    secondAuthAction->setStatusTip(tr("Second auth with your Novacoin addresses"));
+    secondAuthAction->setStatusTip(tr("Second auth with your ZUC addresses"));
 
     lockWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Lock wallet"), this);
     lockWalletAction->setStatusTip(tr("Lock wallet"));

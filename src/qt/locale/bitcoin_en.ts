@@ -504,8 +504,8 @@ Copyright © 2017-2019 The ZUC developers</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="329"/>
-        <source>Sign messages with your Novacoin addresses to prove you own them</source>
-        <translation>Sign messages with your Novacoin addresses to prove you own them</translation>
+        <source>Sign messages with your ZUC addresses to prove you own them</source>
+        <translation>Sign messages with your ZUC addresses to prove you own them</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="330"/>
@@ -514,8 +514,8 @@ Copyright © 2017-2019 The ZUC developers</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="331"/>
-        <source>Verify messages to ensure they were signed with specified Novacoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Novacoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified ZUC addresses</source>
+        <translation>Verify messages to ensure they were signed with specified ZUC addresses</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="332"/>
@@ -524,7 +524,7 @@ Copyright © 2017-2019 The ZUC developers</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="333"/>
-        <source>Second auth with your Novacoin addresses</source>
+        <source>Second auth with your ZUC addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -932,8 +932,8 @@ Some or all keys from:
         <translation>Amount:</translation>
     </message>
     <message>
-        <source>0.00 NVC</source>
-        <translation type="obsolete">0.00 NVC</translation>
+        <source>0.00 ZUC</source>
+        <translation type="obsolete">0.00 ZUC</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -1346,7 +1346,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>zuc-qt will download and store a copy of the Novacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>zuc-qt will download and store a copy of the ZUC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1361,7 +1361,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../intro.cpp" line="184"/>
-        <source>Novacoin-qt</source>
+        <source>ZUC-Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1791,8 +1791,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="obsolete">123.456</translation>
     </message>
     <message>
-        <source>NVC</source>
-        <translation type="obsolete">NVC</translation>
+        <source>ZUC</source>
+        <translation type="obsolete">ZUC</translation>
     </message>
     <message>
         <location filename="../forms/multisigdialog.ui" line="413"/>
@@ -1901,13 +1901,13 @@ Reduce the number of addresses involved in the address creation.</translation>
     </message>
     <message>
         <location filename="../multisigdialog.cpp" line="522"/>
-        <source>The fee of the transaction (%1 NVC) is smaller than the expected fee (%2 NVC). Do you want to send the transaction anyway?</source>
-        <translation>The fee of the transaction (%1 NVC) is smaller than the expected fee (%2 NVC). Do you want to send the transaction anyway?</translation>
+        <source>The fee of the transaction (%1 ZUC) is smaller than the expected fee (%2 ZUC). Do you want to send the transaction anyway?</source>
+        <translation>The fee of the transaction (%1 ZUC) is smaller than the expected fee (%2 ZUC). Do you want to send the transaction anyway?</translation>
     </message>
     <message>
         <location filename="../multisigdialog.cpp" line="528"/>
-        <source>The fee of the transaction (%1 NVC) is bigger than the expected fee (%2 NVC). Do you want to send the transaction anyway?</source>
-        <translation>The fee of the transaction (%1 NVC) is bigger than the expected fee (%2 NVC). Do you want to send the transaction anyway?</translation>
+        <source>The fee of the transaction (%1 ZUC) is bigger than the expected fee (%2 ZUC). Do you want to send the transaction anyway?</source>
+        <translation>The fee of the transaction (%1 ZUC) is bigger than the expected fee (%2 ZUC). Do you want to send the transaction anyway?</translation>
     </message>
 </context>
 <context>
@@ -2848,8 +2848,8 @@ Reduce the number of addresses involved in the address creation.</translation>
         <translation>Amount:</translation>
     </message>
     <message>
-        <source>0.00 NVC</source>
-        <translation type="obsolete">0.00 NVC</translation>
+        <source>0.00 ZUC</source>
+        <translation type="obsolete">0.00 ZUC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
@@ -2937,8 +2937,8 @@ Reduce the number of addresses involved in the address creation.</translation>
         <translation>Balance:</translation>
     </message>
     <message>
-        <source>123.456 NVC</source>
-        <translation type="obsolete">123.456 NVC</translation>
+        <source>123.456 ZUC</source>
+        <translation type="obsolete">123.456 ZUC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="772"/>
