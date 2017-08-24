@@ -2329,18 +2329,18 @@ Reduce the number of addresses involved in the address creation.</translation>
     <name>QObject</name>
     <message>
         <location filename="../bitcoinunits.cpp" line="48"/>
-        <source>NovaCoins</source>
-        <translation>NovaCoins</translation>
+        <source>ZUC</source>
+        <translation>ZUC</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="49"/>
-        <source>Milli-NovaCoins (1 / 1,000)</source>
-        <translation>Milli-NovaCoins (1 / 1,000)</translation>
+        <source>Milli-ZUC (1 / 1,000)</source>
+        <translation>Milli-ZUC (1 / 1,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="50"/>
-        <source>Micro-NovaCoins (1 / 1,000,000)</source>
-        <translation>Micro-NovaCoins (1 / 1,000,000)</translation>
+        <source>Micro-ZUC (1 / 1,000,000)</source>
+        <translation>Micro-ZUC (1 / 1,000,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="185"/>

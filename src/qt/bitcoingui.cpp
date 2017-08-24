@@ -386,7 +386,7 @@ void BitcoinGUI::createMenuBar()
     file->addAction(exportAction);
     file->addAction(signMessageAction);
     file->addAction(verifyMessageAction);
-    file->addAction(secondAuthAction);
+    //file->addAction(secondAuthAction);
     file->addAction(multisigAction);
     file->addSeparator();
     file->addAction(quitAction);
@@ -531,7 +531,7 @@ void BitcoinGUI::createTrayIcon()
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(signMessageAction);
     trayIconMenu->addAction(verifyMessageAction);
-    trayIconMenu->addAction(secondAuthAction);
+    //trayIconMenu->addAction(secondAuthAction);
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(optionsAction);
     trayIconMenu->addAction(openRPCConsoleAction);

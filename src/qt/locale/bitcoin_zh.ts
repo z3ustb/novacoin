@@ -2327,23 +2327,23 @@ Reduce the number of addresses involved in the address creation.</source>
     <name>QObject</name>
     <message>
         <location filename="../bitcoinunits.cpp" line="48"/>
-        <source>NovaCoins</source>
-        <translation>NovaCoins</translation>
+        <source>ZUC</source>
+        <translation>ZUC</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="49"/>
-        <source>Milli-NovaCoins (1 / 1,000)</source>
-        <translation>Milli-NovaCoins (1 / 1,000)</translation>
+        <source>Milli-ZUC (1 / 1,000)</source>
+        <translation>Milli-ZUC (1 / 1,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="50"/>
-        <source>Micro-NovaCoins (1 / 1,000,000)</source>
-        <translation>Micro-NovaCoins (1 / 1,000,000)</translation>
+        <source>Micro-ZUC (1 / 1,000,000)</source>
+        <translation>Micro-ZUC (1 / 1,000,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="185"/>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>数量</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="527"/>
@@ -2368,12 +2368,12 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../mintingtablemodel.cpp" line="409"/>
         <source>from  %1 to %2</source>
-        <translation>from  %1 to %2</translation>
+        <translation>从%1到%2</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="188"/>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>错误: 数据目录 &quot;%1&quot; 不存在</translation>
     </message>
 </context>
 <context>
@@ -2381,57 +2381,57 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="14"/>
         <source>QR Code Dialog</source>
-        <translation>QR Code Dialog</translation>
+        <translation>二维码对话框</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="73"/>
         <source>Request Payment</source>
-        <translation>Request Payment</translation>
+        <translation>请求支付</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="85"/>
         <source>Label:</source>
-        <translation>Label:</translation>
+        <translation>标签:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="104"/>
         <source>Message:</source>
-        <translation>Message:</translation>
+        <translation>消息:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="129"/>
         <source>Amount:</source>
-        <translation>Amount:</translation>
+        <translation>数量:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="175"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;Save As...</translation>
+        <translation>另存为...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="63"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Error encoding URI into QR Code.</translation>
+        <translation>编码URI生成二维码出现错误.</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="103"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>The entered amount is invalid, please check.</translation>
+        <translation>输入的数量无效, 请检查.</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="126"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulting URI too long, try to reduce the text for label / message.</translation>
+        <translation>生成的URI太长, 减少标签 / 消息再试.</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="151"/>
         <source>Save QR Code</source>
-        <translation>Save QR Code</translation>
+        <translation>保存二维码</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="151"/>
         <source>PNG Images (*.png)</source>
-        <translation>PNG Images (*.png)</translation>
+        <translation>PNG图片(*.png)</translation>
     </message>
 </context>
 <context>
@@ -2439,17 +2439,17 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
         <source>ZUC - Debug window</source>
-        <translation>ZUC - Debug window</translation>
+        <translation>ZUC - 调试窗口</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
         <source>&amp;Information</source>
-        <translation>&amp;Information</translation>
+        <translation>Information信息</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="36"/>
         <source>Configuration file</source>
-        <translation>Configuration file</translation>
+        <translation>配置文件</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="46"/>
@@ -2469,92 +2469,92 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/rpcconsole.ui" line="59"/>
         <source>Current number of blocks</source>
-        <translation>Current number of blocks</translation>
+        <translation>当前区块数</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="88"/>
         <source>Command-line options</source>
-        <translation>Command-line options</translation>
+        <translation>命令行参数</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="95"/>
         <source>Open the ZUC debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the ZUC debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <translation>打开当前数据目录ZUC调试日志文件. 对于大的日志文件打开时间会加长.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="98"/>
         <source>&amp;Open</source>
-        <translation>&amp;Open</translation>
+        <translation>打开</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="114"/>
         <source>Debug log file</source>
-        <translation>Debug log file</translation>
+        <translation>调试日志文件</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="147"/>
         <source>Show the ZUC-Qt help message to get a list with possible ZUC command-line options.</source>
-        <translation>Show the ZUC-Qt help message to get a list with possible ZUC command-line options.</translation>
+        <translation>显示ZUC-Qt帮助信息，以及命令行参数列表.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="150"/>
         <source>&amp;Show</source>
-        <translation>&amp;Show</translation>
+        <translation>显示</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="160"/>
         <source>Last block time</source>
-        <translation>Last block time</translation>
+        <translation>最后区块时间</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="173"/>
         <source>Network</source>
-        <translation>Network</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="196"/>
         <source>Startup time</source>
-        <translation>Startup time</translation>
+        <translation>开始时间</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="203"/>
         <source>On testnet</source>
-        <translation>On testnet</translation>
+        <translation>测试网络</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="226"/>
         <source>Number of connections</source>
-        <translation>Number of connections</translation>
+        <translation>链接数</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="239"/>
         <source>Block chain</source>
-        <translation>Block chain</translation>
+        <translation>区块链</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="256"/>
         <source>Estimated total blocks</source>
-        <translation>Estimated total blocks</translation>
+        <translation>估计的总区块</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="295"/>
         <source>Using BerkeleyDB version</source>
-        <translation>Using BerkeleyDB version</translation>
+        <translation>使用的BerkeleyDB版本</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="305"/>
         <source>Using OpenSSL version</source>
-        <translation>Using OpenSSL version</translation>
+        <translation>使用的OpenSSL版本</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="347"/>
         <source>Build date</source>
-        <translation>Build date</translation>
+        <translation>构造时间</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="370"/>
         <source>Client version</source>
-        <translation>Client version</translation>
+        <translation>客户端版本</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="383"/>
@@ -2564,77 +2564,77 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/rpcconsole.ui" line="406"/>
         <source>Client name</source>
-        <translation>Client name</translation>
+        <translation>客户端名称</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="426"/>
         <source>Open the ZUC configuration file from the current data directory.</source>
-        <translation>Open the ZUC configuration file from the current data directory.</translation>
+        <translation>打开当前数据目录ZUC调试日志文件.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="429"/>
         <source>O&amp;pen</source>
-        <translation>O&amp;pen</translation>
+        <translation>打开</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="440"/>
         <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
+        <translation>控制台</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="489"/>
         <source>Clear console</source>
-        <translation>Clear console</translation>
+        <translation>清除控制台</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="512"/>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Network Traffic</translation>
+        <translation>网络流量</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="564"/>
         <source>&amp;Clear</source>
-        <translation>&amp;Clear</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="580"/>
         <source>Totals</source>
-        <translation>Total</translation>
+        <translation>总计</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="644"/>
         <source>Received:</source>
-        <translation>Received:</translation>
+        <translation>接收:</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="724"/>
         <source>Sent:</source>
-        <translation>Sent:</translation>
+        <translation>发送:</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="325"/>
         <source>Welcome to the ZUC RPC console.</source>
-        <translation>Welcome to the ZUC RPC console.</translation>
+        <translation>欢迎打开ZUC RPC控制台.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="326"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</translation>
+        <translation>使用上下箭头浏览历史, 使用 &lt;b&gt;Ctrl-L&lt;/b&gt; 清除屏幕显示.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="327"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
+        <translation>输入 &lt;b&gt;help&lt;/b&gt; 显示可用的命令.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="352"/>
         <source>Inbound:</source>
-        <translation>Inbound:</translation>
+        <translation>入站:</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="353"/>
         <source>Outbound:</source>
-        <translation>Outbound:</translation>
+        <translation>出站:</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="470"/>
@@ -2679,7 +2679,7 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="obsolete">Paste address from clipboard</translation>
+        <translation type="obsolete">从剪切板复制地址</translation>
     </message>
     <message>
         <location filename="../forms/secondauthdialog.ui" line="17"/>
@@ -2804,32 +2804,32 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../sendcoinsdialog.cpp" line="231"/>
         <location filename="../sendcoinsdialog.cpp" line="236"/>
         <source>Send Coins</source>
-        <translation>Send Coins</translation>
+        <translation>发送币</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
         <source>Coin Control Features</source>
-        <translation>Coin Control Features</translation>
+        <translation>币控制功能</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="110"/>
         <source>Inputs...</source>
-        <translation>Inputs...</translation>
+        <translation>输入...</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="117"/>
         <source>automatically selected</source>
-        <translation>automatically selected</translation>
+        <translation>自动选择</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="136"/>
         <source>Insufficient funds!</source>
-        <translation>Insufficient funds!</translation>
+        <translation>基金不足!</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="213"/>
         <source>Quantity:</source>
-        <translation>Quantity:</translation>
+        <translation>数量:</translation>
     </message>
     <message>
         <source>0</source>
@@ -2838,12 +2838,12 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="251"/>
         <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <translation>字节:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="302"/>
         <source>Amount:</source>
-        <translation>Amount:</translation>
+        <translation>数量:</translation>
     </message>
     <message>
         <source>0.00 ZUC</source>
@@ -2852,17 +2852,17 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
         <source>Priority:</source>
-        <translation>Priority:</translation>
+        <translation>优先级:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="356"/>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>中等</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="388"/>
         <source>Fee:</source>
-        <translation>Fee:</translation>
+        <translation>交易费:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="423"/>
@@ -2872,7 +2872,7 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="442"/>
         <source>no</source>
-        <translation>no</translation>
+        <translation>否</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="474"/>
@@ -2882,17 +2882,17 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="509"/>
         <source>Change</source>
-        <translation>Change</translation>
+        <translation>找零</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="559"/>
         <source>custom change address</source>
-        <translation>custom change address</translation>
+        <translation>自定义找零地址</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="582"/>
         <source>Choose address from address book</source>
-        <translation>Choose address from address book</translation>
+        <translation>从地址本选择地址</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="592"/>
@@ -2902,7 +2902,7 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="602"/>
         <source>Paste address from clipboard</source>
-        <translation>Paste address from clipboard</translation>
+        <translation>从剪切板复制地址</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="612"/>
@@ -2912,27 +2912,27 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="683"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Send to multiple recipients at once</translation>
+        <translation>一次发送给多个接收人</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="686"/>
         <source>Add &amp;Recipient</source>
-        <translation>Add &amp;Recipient</translation>
+        <translation>添加接收人</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="706"/>
         <source>Remove all transaction fields</source>
-        <translation>Remove all transaction fields</translation>
+        <translation>移除全部交易</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="709"/>
         <source>Clear &amp;All</source>
-        <translation>Clear &amp;All</translation>
+        <translation>清除全部</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="731"/>
         <source>Balance:</source>
-        <translation>Balance:</translation>
+        <translation>余额:</translation>
     </message>
     <message>
         <source>123.456 ZUC</source>
@@ -2941,32 +2941,32 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="772"/>
         <source>Confirm the send action</source>
-        <translation>Confirm the send action</translation>
+        <translation>确认发送</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="775"/>
         <source>S&amp;end</source>
-        <translation>S&amp;end</translation>
+        <translation>发送</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="43"/>
         <source>Enter a ZUC address (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Enter a ZUC address (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <translation>输入ZUC地址 (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="57"/>
         <source>Copy quantity</source>
-        <translation>Copy quantity</translation>
+        <translation>复制数量</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="58"/>
         <source>Copy amount</source>
-        <translation>Copy amount</translation>
+        <translation>复制数量</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="59"/>
         <source>Copy fee</source>
-        <translation>Copy fee</translation>
+        <translation>复制交易费</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="60"/>
@@ -2976,12 +2976,12 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="61"/>
         <source>Copy bytes</source>
-        <translation>Copy bytes</translation>
+        <translation>复制字节</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="62"/>
         <source>Copy priority</source>
-        <translation>Copy priority</translation>
+        <translation>复制优先级</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="63"/>
@@ -2991,7 +2991,7 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="64"/>
         <source>Copy change</source>
-        <translation>Copy change</translation>
+        <translation>复制找零</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="168"/>
@@ -3002,52 +3002,52 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="176"/>
         <source>Confirm send coins</source>
-        <translation>Confirm send coins</translation>
+        <translation>确认发送币</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Are you sure you want to send %1?</translation>
+        <translation>确定要发送%1?</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
         <source> and </source>
-        <translation> and </translation>
+        <translation>和</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="206"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>The recipient address is not valid, please recheck.</translation>
+        <translation>接收地址无效, 请检查.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="211"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>The amount to pay must be larger than 0.</translation>
+        <translation>支付数量必须大于0.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="216"/>
         <source>The amount exceeds your balance.</source>
-        <translation>The amount exceeds your balance.</translation>
+        <translation>支付数量超过账户余额.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="221"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>The total exceeds your balance when the %1 transaction fee is included.</translation>
+        <translation>包含%1交易费用时将超过账户余额.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="227"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Duplicate address found, can only send to each address once per send operation.</translation>
+        <translation>出现重复地址, 一个地址在一个发送操作中只能出现一次.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="232"/>
         <source>Error: Transaction creation failed.</source>
-        <translation>Error: Transaction creation failed.</translation>
+        <translation>错误: 交易创建失败.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="237"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
+        <translation>错误: 交易被拒绝. 这个可能在钱包的币被花费时发生, 比如你使用的是复制的钱包, 币已经在其他副本被花费但此副本没有标记.</translation>
     </message>
 </context>
 <context>
@@ -3055,38 +3055,38 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="14"/>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>表单</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="29"/>
         <source>A&amp;mount:</source>
-        <translation>A&amp;mount:</translation>
+        <translation>数量:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="42"/>
         <source>Pay &amp;To:</source>
-        <translation>Pay &amp;To:</translation>
+        <translation>付给:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="66"/>
         <location filename="../sendcoinsentry.cpp" line="25"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Enter a label for this address to add it to your address book</translation>
+        <translation>为这个地址设置一个标签并加入到地址本</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="75"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>标签:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="93"/>
         <source>The address to send the payment to  (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>The address to send the payment to  (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <translation>要发送支付的地址 (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="103"/>
         <source>Choose address from address book</source>
-        <translation>Choose address from address book</translation>
+        <translation>从地址本选择地址</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="113"/>
@@ -3096,7 +3096,7 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="120"/>
         <source>Paste address from clipboard</source>
-        <translation>Paste address from clipboard</translation>
+        <translation>从剪切板复制地址</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="130"/>
@@ -3106,12 +3106,12 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="137"/>
         <source>Remove this recipient</source>
-        <translation>Remove this recipient</translation>
+        <translation>移除此接收人</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
         <source>Enter a ZUC address (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Enter a ZUC address (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <translation>输入ZUC地址 (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
 </context>
 <context>
@@ -3119,29 +3119,29 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="17"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Signatures - Sign / Verify a Message</translation>
+        <translation>签名 - 签署 / 验证消息</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="27"/>
         <location filename="../forms/signverifymessagedialog.ui" line="151"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Sign Message</translation>
+        <translation>签署消息</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="33"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
+        <translation>使用你的地址签署消息来证明你的所有权. 小心不要签署任何含糊的内容，因为网络钓鱼攻击可能会试图欺骗您的签署身份. 只有在你同意完全描述时才签署.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="51"/>
         <source>The address to sign the message with (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>The address to sign the message with (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <translation>签名消息要使用的地址 (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="61"/>
         <location filename="../forms/signverifymessagedialog.ui" line="264"/>
         <source>Choose an address from the address book</source>
-        <translation>Choose an address from the address book</translation>
+        <translation>从地址本选择一个地址</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="71"/>
@@ -3152,7 +3152,7 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="81"/>
         <source>Paste address from clipboard</source>
-        <translation>Paste address from clipboard</translation>
+        <translation>从剪切板复制地址</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="91"/>
@@ -3162,76 +3162,76 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="103"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Enter the message you want to sign here</translation>
+        <translation>输入你要签署的消息</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="127"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Copy the current signature to the system clipboard</translation>
+        <translation>复制当前签名到系统剪切板</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="148"/>
         <source>Sign the message to prove you own this ZUC address</source>
-        <translation>Sign the message to prove you own this ZUC address</translation>
+        <translation>签署消息证明你对此ZUC地址的所有权</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="165"/>
         <source>Reset all sign message fields</source>
-        <translation>Reset all sign message fields</translation>
+        <translation>重置全部签署消息字段</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="168"/>
         <location filename="../forms/signverifymessagedialog.ui" line="314"/>
         <source>Clear &amp;All</source>
-        <translation>Clear &amp;All</translation>
+        <translation>清除全部</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="227"/>
         <location filename="../forms/signverifymessagedialog.ui" line="297"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verify Message</translation>
+        <translation>验证消息</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="233"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</translation>
+        <translation>输入签名地址, 消息 (确保复制了换行, 空格, tabs键等) 和下面的签名来验证消息. 为了避免中间人攻击, 只复制签名过的消息.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="254"/>
         <source>The address the message was signed with (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>The address the message was signed with (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <translation>签署消息使用的地址 (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="294"/>
         <source>Verify the message to ensure it was signed with the specified ZUC address</source>
-        <translation>Verify the message to ensure it was signed with the specified ZUC address</translation>
+        <translation>验证消息来确认是由该ZUC地址签署</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="311"/>
         <source>Reset all verify message fields</source>
-        <translation>Reset all verify message fields</translation>
+        <translation>重置全部签署消息字段</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="29"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
         <source>Enter a ZUC address (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Enter a ZUC address (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <translation>输入一个ZUC地址 (e.g. Z4o1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="30"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Click &quot;Sign Message&quot; to generate signature</translation>
+        <translation>点击 &quot;签署消息&quot; 生成签名</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="33"/>
         <source>Enter ZUC signature</source>
-        <translation>Enter ZUC signature</translation>
+        <translation>输入ZUC签名</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
         <location filename="../signverifymessagedialog.cpp" line="196"/>
         <source>The entered address is invalid.</source>
-        <translation>The entered address is invalid.</translation>
+        <translation>输入的地址无效.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -3239,59 +3239,59 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../signverifymessagedialog.cpp" line="196"/>
         <location filename="../signverifymessagedialog.cpp" line="204"/>
         <source>Please check the address and try again.</source>
-        <translation>Please check the address and try again.</translation>
+        <translation>检查地址并重试.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="123"/>
         <location filename="../signverifymessagedialog.cpp" line="204"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>The entered address does not refer to a key.</translation>
+        <translation>输入的地址和key没有关联.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="131"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Wallet unlock was cancelled.</translation>
+        <translation>钱包解锁已取消.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="139"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>Private key for the entered address is not available.</translation>
+        <translation>输入地址的私钥不可用.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="151"/>
         <source>Message signing failed.</source>
-        <translation>Message signing failed.</translation>
+        <translation>消息签署失败.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="156"/>
         <source>Message signed.</source>
-        <translation>Message signed.</translation>
+        <translation>消息已签署.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="215"/>
         <source>The signature could not be decoded.</source>
-        <translation>The signature could not be decoded.</translation>
+        <translation>签名不能被解码.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="215"/>
         <location filename="../signverifymessagedialog.cpp" line="228"/>
         <source>Please check the signature and try again.</source>
-        <translation>Please check the signature and try again.</translation>
+        <translation>检查签名并重试.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="228"/>
         <source>The signature did not match the message digest.</source>
-        <translation>The signature did not match the message digest.</translation>
+        <translation>签名与消息摘要不匹配.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="235"/>
         <source>Message verification failed.</source>
-        <translation>Message verification failed.</translation>
+        <translation>消息验证失败.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="240"/>
         <source>Message verified.</source>
-        <translation>Message verified.</translation>
+        <translation>消息已验证.</translation>
     </message>
 </context>
 <context>
@@ -3308,62 +3308,61 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../transactiondesc.cpp" line="20"/>
         <source>Open for %n block(s)</source>
         <translation>
-            <numerusform>Open for %n block</numerusform>
-            <numerusform>Open for %n blocks</numerusform>
+            <numerusform>打开%n区块</numerusform>
+            <numerusform>打开%n区块</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="22"/>
         <source>Open until %1</source>
-        <translation>Open until %1</translation>
+        <translation>打开时间直到%1</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="28"/>
         <source>%1/offline</source>
-        <translation>%1/offline</translation>
+        <translation>%1/离线</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="30"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/unconfirmed</translation>
+        <translation>%1/未确认</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="32"/>
         <source>%1 confirmations</source>
-        <translation>%1 confirmations</translation>
+        <translation>%1确认数</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="50"/>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>状态</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="55"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, has not been successfully broadcast yet</translation>
+        <translation>, 还没有被广播</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiondesc.cpp" line="57"/>
         <source>, broadcast through %n node(s)</source>
         <translation>
-            <numerusform>, broadcast through %n node</numerusform>
-            <numerusform>, broadcast through %n nodes</numerusform>
+            <numerusform>, 已广播%n节点</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="61"/>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="68"/>
         <source>Source</source>
-        <translation>Source</translation>
+        <translation>来源</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="68"/>
         <source>Generated</source>
-        <translation>Generated</translation>
+        <translation>已生成</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="73"/>
@@ -3371,32 +3370,32 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../transactiondesc.cpp" line="106"/>
         <location filename="../transactiondesc.cpp" line="112"/>
         <source>From</source>
-        <translation>From</translation>
+        <translation>从</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="100"/>
         <location filename="../transactiondesc.cpp" line="106"/>
         <source>unknown</source>
-        <translation>unknown</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="117"/>
         <location filename="../transactiondesc.cpp" line="125"/>
         <source>label</source>
-        <translation>label</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="122"/>
         <location filename="../transactiondesc.cpp" line="144"/>
         <location filename="../transactiondesc.cpp" line="202"/>
         <source>To</source>
-        <translation>To</translation>
+        <translation>到</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="125"/>
         <location filename="../transactiondesc.cpp" line="127"/>
         <source>own address</source>
-        <translation>own address</translation>
+        <translation>自己的地址</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="162"/>
@@ -3405,20 +3404,19 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../transactiondesc.cpp" line="236"/>
         <location filename="../transactiondesc.cpp" line="266"/>
         <source>Credit</source>
-        <translation>Credit</translation>
+        <translation>信用</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiondesc.cpp" line="164"/>
         <source>matures in %n more block(s)</source>
         <translation>
-            <numerusform>matures in %n more block</numerusform>
-            <numerusform>matures in %n more blocks</numerusform>
+            <numerusform>%n区块后成熟</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="166"/>
         <source>not accepted</source>
-        <translation>not accepted</translation>
+        <translation>未接受</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="210"/>
@@ -3426,67 +3424,67 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../transactiondesc.cpp" line="233"/>
         <location filename="../transactiondesc.cpp" line="263"/>
         <source>Debit</source>
-        <translation>Debit</translation>
+        <translation>借方</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="224"/>
         <source>Transaction fee</source>
-        <translation>Transaction fee</translation>
+        <translation>交易费</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="240"/>
         <source>Net amount</source>
-        <translation>Net amount</translation>
+        <translation>净额</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="246"/>
         <source>Message</source>
-        <translation>Message</translation>
+        <translation>消息</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="248"/>
         <source>Comment</source>
-        <translation>Comment</translation>
+        <translation>评论</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="250"/>
         <source>Transaction ID</source>
-        <translation>Transaction ID</translation>
+        <translation>交易ID</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="253"/>
         <source>Generated coins must mature 520 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generated coins must mature 520 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
+        <translation>生成的区块在520个区块才可用花费. 生成的区块后将被广播并添加到区块链. 加入区块链失败的区块将被修改为&quot;未接受&quot; 并且不能被花费. 如果其它节点生成的区块和你的时间很接近，这种情况偶尔会发生.</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="260"/>
         <source>Debug information</source>
-        <translation>Debug information</translation>
+        <translation>调试信息</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="268"/>
         <source>Transaction</source>
-        <translation>Transaction</translation>
+        <translation>交易</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="273"/>
         <source>Inputs</source>
-        <translation>Inputs</translation>
+        <translation>输入</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="296"/>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>数量</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="297"/>
         <source>true</source>
-        <translation>true</translation>
+        <translation>是</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="297"/>
         <source>false</source>
-        <translation>false</translation>
+        <translation>否</translation>
     </message>
 </context>
 <context>
@@ -3494,12 +3492,12 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="14"/>
         <source>Transaction details</source>
-        <translation>Transaction details</translation>
+        <translation>交易详情</translation>
     </message>
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="20"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>This pane shows a detailed description of the transaction</translation>
+        <translation>此窗格显示交易的详细说明</translation>
     </message>
 </context>
 <context>
@@ -3507,118 +3505,116 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>类型</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>地址</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="302"/>
         <source>Open for %n block(s)</source>
         <translation>
-            <numerusform>Open for %n block</numerusform>
-            <numerusform>Open for %n blocks</numerusform>
+            <numerusform>打开%n区块</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="305"/>
         <source>Open until %1</source>
-        <translation>Open until %1</translation>
+        <translation>打开时间直到%1</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="308"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 confirmations)</translation>
+        <translation>离线(%1确认数)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="311"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Unconfirmed (%1 of %2 confirmations)</translation>
+        <translation>未确认(%1/%2确认数)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="314"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Confirmed (%1 confirmations)</translation>
+        <translation>确认的(%1确认数)</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="323"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
         <translation>
-            <numerusform>Mined balance will be available when it matures in %n more block</numerusform>
-            <numerusform>Mined balance will be available when it matures in %n more blocks</numerusform>
+            <numerusform>挖矿获得余额将在%n区块成熟后可用</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="328"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>This block was not received by any other nodes and will probably not be accepted!</translation>
+        <translation>这个区块没有被其他节点收到，而且可能不会被接收!</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="331"/>
         <source>Generated but not accepted</source>
-        <translation>Generated but not accepted</translation>
+        <translation>生成但未被接收</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="374"/>
         <source>Received with</source>
-        <translation>Received with</translation>
+        <translation>从地址收到</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="376"/>
         <source>Received from</source>
-        <translation>Received from</translation>
+        <translation>接受自</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="379"/>
         <source>Sent to</source>
-        <translation>Sent to</translation>
+        <translation>发送给</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="381"/>
         <source>Payment to yourself</source>
-        <translation>Payment to yourself</translation>
+        <translation>支付给自己</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="383"/>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>挖矿</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="420"/>
         <source>(n/a)</source>
-        <translation>(n/a)</translation>
+        <translation>(不可用)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="623"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaction status. Hover over this field to show number of confirmations.</translation>
+        <translation>交易状态. 将鼠标悬停在此字段上以显示确认数.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="625"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Date and time that the transaction was received.</translation>
+        <translation>交易收到的日期与时间.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="627"/>
         <source>Type of transaction.</source>
-        <translation>Type of transaction.</translation>
+        <translation>交易类型.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="629"/>
         <source>Destination address of transaction.</source>
-        <translation>Destination address of transaction.</translation>
+        <translation>交易的目的地.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="631"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Amount removed from or added to balance.</translation>
+        <translation>从余额移除与添加的数量.</translation>
     </message>
 </context>
 <context>
@@ -3627,147 +3623,147 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../transactionview.cpp" line="60"/>
         <location filename="../transactionview.cpp" line="76"/>
         <source>All</source>
-        <translation>All</translation>
+        <translation>全部</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="61"/>
         <source>Today</source>
-        <translation>Today</translation>
+        <translation>今天</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="62"/>
         <source>This week</source>
-        <translation>This week</translation>
+        <translation>本周</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="63"/>
         <source>This month</source>
-        <translation>This month</translation>
+        <translation>本月</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="64"/>
         <source>Last month</source>
-        <translation>Last month</translation>
+        <translation>上月</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="65"/>
         <source>This year</source>
-        <translation>This year</translation>
+        <translation>今年</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="66"/>
         <source>Range...</source>
-        <translation>Range...</translation>
+        <translation>范围...</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="77"/>
         <source>Received with</source>
-        <translation>Received with</translation>
+        <translation>从地址收到</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="79"/>
         <source>Sent to</source>
-        <translation>Sent to</translation>
+        <translation>发送给</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="81"/>
         <source>To yourself</source>
-        <translation>To yourself</translation>
+        <translation>给自己</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="82"/>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>挖矿</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="83"/>
         <source>Other</source>
-        <translation>Other</translation>
+        <translation>其它</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="90"/>
         <source>Enter address or label to search</source>
-        <translation>Enter address or label to search</translation>
+        <translation>输入地址或标签来搜索</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="97"/>
         <source>Min amount</source>
-        <translation>Min amount</translation>
+        <translation>最新数量</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="131"/>
         <source>Copy address</source>
-        <translation>Copy address</translation>
+        <translation>复制地址</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="132"/>
         <source>Copy label</source>
-        <translation>Copy label</translation>
+        <translation>复制标签</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="133"/>
         <source>Copy amount</source>
-        <translation>Copy amount</translation>
+        <translation>复制数量</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="134"/>
         <source>Copy transaction ID</source>
-        <translation>Copy transaction ID</translation>
+        <translation>复制交易ID</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="135"/>
         <source>Edit label</source>
-        <translation>Edit label</translation>
+        <translation>修改标签</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="136"/>
         <source>Show transaction details</source>
-        <translation>Show transaction details</translation>
+        <translation>显示交易详情</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="137"/>
         <source>Clear orphans</source>
-        <translation>Clear orphans</translation>
+        <translation>清除孤儿区块</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="312"/>
         <source>Export Transaction Data</source>
-        <translation>Export Transaction Data</translation>
+        <translation>导出交易数据</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="313"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma separated file (*.csv)</translation>
+        <translation>逗号分隔文件(*.csv)</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="321"/>
         <source>Confirmed</source>
-        <translation>Confirmed</translation>
+        <translation>已确认</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="322"/>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="323"/>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>类型</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="324"/>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="325"/>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="326"/>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>数量</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="327"/>
@@ -3777,22 +3773,22 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../transactionview.cpp" line="331"/>
         <source>Error exporting</source>
-        <translation>Error exporting</translation>
+        <translation>错误导出</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="331"/>
         <source>Could not write to file %1.</source>
-        <translation>Could not write to file %1.</translation>
+        <translation>不能写文件%1.</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="459"/>
         <source>Range:</source>
-        <translation>Range:</translation>
+        <translation>范围:</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="467"/>
         <source>to</source>
-        <translation>to</translation>
+        <translation>到</translation>
     </message>
 </context>
 <context>
@@ -3800,7 +3796,7 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../walletmodel.cpp" line="227"/>
         <source>Sending...</source>
-        <translation>Sending...</translation>
+        <translation>发送...</translation>
     </message>
 </context>
 <context>
@@ -3815,367 +3811,366 @@ rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
 </source>
-        <translation>%s, you must set a rpcpassword in the configuration file:
+        <translation>%s, 你需要在配置文件中设置一个rpcpassword:
  %s
-It is recommended you use the following random password:
+推荐你使用如下的随机密码:
 rpcuser=zucrpc
 rpcpassword=%s
-(you do not need to remember this password)
-If the file does not exist, create it with owner-readable-only file permissions.</translation>
+(你不必记住此密码)
+如果此文件不存在, 创建一个所有者只读的文件.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <translation>可接受的密码(默认: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="21"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>An error occurred while setting up the RPC port %u for listening on IPv4: %s</translation>
+        <translation>设置RPC端口%u(IPv4: %s)出现错误</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="23"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</translation>
+        <translation>设置IPv6 RPC端口%u出现错误, 使用IPv4: %s来代替</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="26"/>
         <source>Cannot obtain a lock on data directory %s.  ZUC is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s.  ZUC is probably already running.</translation>
+        <translation>获取数据目录%s锁失败. ZUC可能已运行.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="29"/>
         <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
-        <translation>Detach block and address databases. Increases shutdown time (default: 0)</translation>
+        <translation>分离区块与地址数据库. 增加关闭时间(默认: 0)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="31"/>
         <source>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</source>
-        <translation>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</translation>
+        <translation>初始化数据库环境失败 %s! 备份该目录，移除wallet.dat外的其它文件来恢复.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="34"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
+        <translation>错误: 交易被拒绝. 这个可能在钱包的币被花费时发生, 比如你使用的是复制的钱包, 币已经在其他副本被花费但此副本没有标记.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="38"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
-        <translation>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </translation>
+        <translation>错误: 由于数量、复杂性和使用最近收到的基金, 这个交易需要最少%s的交易费</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="41"/>
         <source>Error: Wallet unlocked for block minting only, unable to create transaction.</source>
-        <translation>Error: Wallet unlocked for block minting only, unable to create transaction.</translation>
+        <translation>错误: 只为铸造区块用, 不能创建交易.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
+        <translation>当最佳区块变化是执行的命令(命令中的%s将被区块hash所替换)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="46"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8355 or testnet: 18355)</source>
-        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 8355 or testnet: 18355)</translation>
+        <translation>监听的JSON-RPC链接&lt;端口&gt;(默认: 8355 or testnet: 18355)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</translation>
+        <translation>对不正常节点重连的秒数(默认: 86400)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</translation>
+        <translation>设置高优先级/低费用交易的以字节计算的最大容量 (默认: 27000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
         <source>Unable to bind to %s on this computer. ZUC is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. ZUC is probably already running.</translation>
+        <translation>无法绑定%s. ZUC可能已运行.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="56"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
+        <translation>警告: -paytxfee设置的太高! 这是发送交易时支付的交易费用.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ZUC will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ZUC will not work properly.</translation>
+        <translation>警告: 请检查电脑的日期与时间是否准确! 时间错误时ZUC将不能正常工作.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="62"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
+        <translation>警告: 读取wallet.dat失败! 所有的keys是正确的, 但是交易数据或地址本可能丢失或不正确.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="65"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</translation>
+        <translation>警告: wallet.dat已损坏, 数据被抢救! 原始的wallet.dat已保存为%s目录的wallet.{timestamp}.bak; 如果余额或交易不正确，你需要从备份中恢复.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="69"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</translation>
+        <translation>必须在配置文件%s中设置rpcpassword=&lt;password&gt;, 
+如果文件不存在，创建一个所有者只读的文件.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="74"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accept command line and JSON-RPC commands</translation>
+        <translation>接收命令行参数和JSON-RPC命令</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="75"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
+        <translation>接收外部链接(默认: 1 如果无 -proxy 或 -connect)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="76"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Add a node to connect to and attempt to keep the connection open</translation>
+        <translation>增加一个节点而且尽量保持连接</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="77"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
+        <translation>允许-addnode, -seednode 和 -connect的DNS查询</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Allow JSON-RPC connections from specified IP address</translation>
+        <translation>允许从指定地址发起JSON-RPC链接</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="79"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Attempt to recover private keys from a corrupt wallet.dat</translation>
+        <translation>尝试从损坏的wallet.dat恢复私钥</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="80"/>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Bind to given address. Use [host]:port notation for IPv6</translation>
+        <translation>绑定给定的地址. 对IPv6使用[host]:port标记</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
         <source>Block creation options:</source>
-        <translation>Block creation options:</translation>
+        <translation>区块创建选项:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Cannot downgrade wallet</translation>
+        <translation>不能降级钱包</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="83"/>
         <source>Cannot initialize keypool</source>
-        <translation>Cannot initialize keypool</translation>
+        <translation>不能初始化密钥池</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Cannot resolve -bind address: &apos;%s&apos;</translation>
+        <translation>不能解析-bind地址: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="85"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Cannot resolve -externalip address: &apos;%s&apos;</translation>
+        <translation>不能解析-externalip地址: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="86"/>
         <source>Cannot write default address</source>
-        <translation>Cannot write default address</translation>
+        <translation>写默认地址失败</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="87"/>
         <source>Connect only to the specified node(s)</source>
-        <translation>Connect only to the specified node(s)</translation>
+        <translation>只连接指定的节点</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
         <source>Connect through socks proxy</source>
-        <translation>Connect through socks proxy</translation>
+        <translation>通过socks代理连接</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Connect to a node to retrieve peer addresses, and disconnect</translation>
+        <translation>链接一个节点来获取peer地址, 然后断开</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="90"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Discover own IP address (default: 1 when listening and no -externalip)</translation>
+        <translation>获取自己的IP地址(默认: 1 当监听但没有-externalip设置时)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="91"/>
         <source>Done loading</source>
-        <translation>Done loading</translation>
+        <translation>加载完成</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="92"/>
         <source>Error loading blkindex.dat</source>
-        <translation>Error loading blkindex.dat</translation>
+        <translation>加载blkindex.dat错误</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="93"/>
         <source>Error loading wallet.dat</source>
-        <translation>Error loading wallet.dat</translation>
+        <translation>加载wallet.dat错误</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="94"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Error loading wallet.dat: Wallet corrupted</translation>
+        <translation>加载wallet.dat错误: Wallet已损坏</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
         <source>Error loading wallet.dat: Wallet requires newer version of ZUC</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of ZUC</translation>
+        <translation>加载wallet.dat错误: Wallet需要新版的ZUC</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>错误</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="97"/>
         <source>Error: Transaction creation failed  </source>
-        <translation>Error: Transaction creation failed  </translation>
+        <translation>错误: 交易创建失败</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
         <source>Error: Wallet locked, unable to create transaction  </source>
-        <translation>Error: Wallet locked, unable to create transaction  </translation>
+        <translation>错误: 钱包被锁定, 不能创建交易</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="99"/>
         <source>Error: could not start node</source>
-        <translation>Error: could not start node</translation>
+        <translation>错误: 启动节点失败</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="100"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
+        <translation>监听任意断开失败. 需要时使用-listen=0.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="101"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>Fee per KB to add to transactions you send</translation>
+        <translation>发送交易时每KB支付的交易费</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="102"/>
         <source>Find peers using DNS lookup (default: 0)</source>
-        <translation>Find peers using DNS lookup (default: 0)</translation>
+        <translation>使用DNS查询来发现peers(默认: 0)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>Find peers using internet relay chat (default: 1)</source>
-        <translation>Find peers using internet relay chat (default: 1)</translation>
+        <translation>使用internet relay chat查询来发现peers(默认: 1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="104"/>
         <source>Get help for a command</source>
-        <translation>Get help for a command</translation>
+        <translation>获取命令的帮助信息</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="105"/>
         <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
-        <translation>How many blocks to check at startup (default: 2500, 0 = all)</translation>
+        <translation>启动时检查的区块数量(默认: 2500, 0 = 全部)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="106"/>
         <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>How thorough the block verification is (0-6, default: 1)</translation>
+        <translation>区块验证检查的完整程度(0-6, 默认: 1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="107"/>
         <source>Importing blockchain data file.</source>
-        <translation>Importing blockchain data file.</translation>
+        <translation>导入区块链数据文件.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="108"/>
         <source>Importing bootstrap blockchain data file.</source>
-        <translation>Importing bootstrap blockchain data file.</translation>
+        <translation>导入启动区块链数据文件.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="109"/>
         <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Imports blocks from external blk000?.dat file</translation>
+        <translation>从外部blk000?.dat文件导入区块</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="110"/>
         <source>Insufficient funds</source>
-        <translation>Insufficient funds</translation>
+        <translation>基金不足</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="111"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Invalid -proxy address: &apos;%s&apos;</translation>
+        <translation>无效的-proxy地址: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="112"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Invalid -tor address: &apos;%s&apos;</translation>
+        <translation>无效的-tor地址: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="113"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation>无效的amount -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="114"/>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Invalid amount for -reservebalance=&lt;amount&gt;</translation>
+        <translation>无效的amount -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="115"/>
         <source>Invalid amount</source>
-        <translation>Invalid amount</translation>
+        <translation>无效的数量</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="116"/>
         <source>List commands</source>
-        <translation>List commands</translation>
+        <translation>列表命令</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="117"/>
         <source>Listen for connections on &lt;port&gt; (default: 7788 or testnet: 17788)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 7788 or testnet: 17788)</translation>
+        <translation>监听的链接&lt;端口&gt; (默认: 7788 or testnet: 17788)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="118"/>
         <source>Loading addresses...</source>
-        <translation>Loading addresses...</translation>
+        <translation>加载地址...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
         <source>Loading block index...</source>
-        <translation>Loading block index...</translation>
+        <translation>加载区块索引...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="120"/>
         <source>Loading wallet...</source>
-        <translation>Loading wallet...</translation>
+        <translation>加载钱包...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Maintain at most &lt;n&gt; connections to peers (default: 125)</translation>
+        <translation>保存到其他节点的链接数 &lt;n&gt; (默认: 125)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="122"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</translation>
+        <translation>最大的每个链接接收缓存, &lt;n&gt;*1000 字节数 (默认: 5000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="123"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</translation>
+        <translation>最大的每个链接发送缓存, &lt;n&gt;*1000 字节数 (默认: 1000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="124"/>
         <source>ZUC version</source>
-        <translation>ZUC version</translation>
+        <translation>ZUC版本</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="125"/>
@@ -4185,284 +4180,284 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</translation>
+        <translation>只连接的网络节点 &lt;net&gt; (IPv4, IPv6 或 Tor)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="127"/>
         <source>Options:</source>
-        <translation>Options:</translation>
+        <translation>选项:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Output extra debugging information. Implies all other -debug* options</translation>
+        <translation>输出额外的调试信息. 隐藏了其它的-debug*选项</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="129"/>
         <source>Output extra network debugging information</source>
-        <translation>Output extra network debugging information</translation>
+        <translation>输出额外的网络调试信息</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="130"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>Password for JSON-RPC connections</translation>
+        <translation>JSON-RPC链接密码</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="131"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Prepend debug output with timestamp</translation>
+        <translation>预置时间戳到调试输出</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Rescan the block chain for missing wallet transactions</translation>
+        <translation>重新扫描区块链来检查缺失的钱包交易</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="133"/>
         <source>Rescanning...</source>
-        <translation>Rescanning...</translation>
+        <translation>重新扫描中...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="134"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Run in the background as a daemon and accept commands</translation>
+        <translation>按守护进程运行并接受命令请求</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="135"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
+        <translation>SSL选择: (具体查询Bitcoin Wiki)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Select the version of socks proxy to use (4-5, default: 5)</translation>
+        <translation>选择socks代理的版本(4-5, default: 5)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
         <source>Send command to -server or zucd</source>
-        <translation>Send command to -server or zucd</translation>
+        <translation>发送命令到-server或zucd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="138"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</translation>
+        <translation>发送命令到运行在&lt;ip&gt;的节点 (默认: 127.0.0.1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="139"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Send trace/debug info to console instead of debug.log file</translation>
+        <translation>发送trace/debug信息到控制台，而不是到debug.log文件</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="140"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>Send trace/debug info to debugger</translation>
+        <translation>发送trace/debug信息到调试器</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="141"/>
         <source>Sending...</source>
-        <translation>Sending...</translation>
+        <translation>发送中...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="142"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Server certificate file (default: server.cert)</translation>
+        <translation>Server证书文件(默认: server.cert)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="143"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Server private key (default: server.pem)</translation>
+        <translation>Server私钥(默认: server.pem)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="144"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Set database cache size in megabytes (default: 25)</translation>
+        <translation>设置数据库缓存大小，单位M(默认: 25)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="145"/>
         <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>Set database disk log size in megabytes (default: 100)</translation>
+        <translation>设置数据库磁盘日志大小，单位M(默认: 100)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="146"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Set key pool size to &lt;n&gt; (default: 100)</translation>
+        <translation>设置key pool大小 &lt;n&gt; (默认: 100)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="147"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Set maximum block size in bytes (default: 250000)</translation>
+        <translation>设置区块的最大尺寸，单位字节(默认: 250000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="148"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Set minimum block size in bytes (default: 0)</translation>
+        <translation>设置区块的最小尺寸，单位字节(default: 0)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="149"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Shrink debug.log file on client startup (default: 1 when no -debug)</translation>
+        <translation>客户端启动时收缩debug.log文件(默认: 1 当无 -debug)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="150"/>
         <source>Specify configuration file (default: zuc.conf)</source>
-        <translation>Specify configuration file (default: zuc.conf)</translation>
+        <translation>设置配置文件(默认: zuc.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="151"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Specify connection timeout in milliseconds (default: 5000)</translation>
+        <translation>设置链接超时时间，单位毫秒(默认: 5000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="152"/>
         <source>Specify data directory</source>
-        <translation>Specify data directory</translation>
+        <translation>设置数据路径</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="153"/>
         <source>Specify pid file (default: zucd.pid)</source>
-        <translation>Specify pid file (default: zucd.pid)</translation>
+        <translation>设置pid文件(默认: zucd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="154"/>
         <source>Specify your own public address</source>
-        <translation>Specify your own public address</translation>
+        <translation>设置字节的公开地址</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="155"/>
         <source>This help message</source>
-        <translation>This help message</translation>
+        <translation>这个帮助信息</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="156"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Threshold for disconnecting misbehaving peers (default: 100)</translation>
+        <translation>与不正常节点断开链接的阈值(默认: 100)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="157"/>
         <source>To use the %s option</source>
-        <translation>To use the %s option</translation>
+        <translation>T使用的配置%s</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="158"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Unable to bind to %s on this computer (bind returned error %d, %s)</translation>
+        <translation>不能绑定%s(绑定返回的错误%d, %s)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="159"/>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
-        <translation>Unable to sign checkpoint, wrong checkpointkey?
+        <translation>不能签名检查点, 错误的检查点私钥?
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="160"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Unknown -socks proxy version requested: %i</translation>
+        <translation>未知的请求-socks代理版本: %i</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="161"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Unknown network specified in -onlynet: &apos;%s&apos;</translation>
+        <translation>未知的-onlynet: &apos;%s&apos;设置</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="162"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>Upgrade wallet to latest format</translation>
+        <translation>更新钱包到最新格式</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="163"/>
         <source>Usage:</source>
-        <translation>Usage:</translation>
+        <translation>用量:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="164"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Use OpenSSL (https) for JSON-RPC connections</translation>
+        <translation>使用OpenSSL (https) 请求JSON-RPC</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="165"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Use proxy to reach tor hidden services (default: same as -proxy)</translation>
+        <translation>使用代理请求tor隐藏服务(默认: 通-proxy)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="166"/>
         <source>Use the test network</source>
-        <translation>Use the test network</translation>
+        <translation>使用测试网络</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="167"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Username for JSON-RPC connections</translation>
+        <translation>JSON-RPC链接的用户名</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="168"/>
         <source>Verifying database integrity...</source>
-        <translation>Verifying database integrity...</translation>
+        <translation>检查数据库一致性...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="169"/>
         <source>Wallet needed to be rewritten: restart ZUC to complete</source>
-        <translation>Wallet needed to be rewritten: restart ZUC to complete</translation>
+        <translation>钱包需要重新: 重启ZUC来完成</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="170"/>
         <source>Warning: Disk space is low!</source>
-        <translation>Warning: Disk space is low!</translation>
+        <translation>警告: 磁盘空间低!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="171"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Warning: This version is obsolete, upgrade required!</translation>
+        <translation>警告: 这个版本已废弃, 需升级!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="172"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat corrupt, salvage failed</translation>
+        <translation>wallet.dat已损坏, 抢救失败</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="173"/>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Specify wallet file (within data directory)</translation>
+        <translation>设置钱包文件(在数据目录)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="174"/>
         <source>Use in-memory logging for block index database (default: 1)</source>
-        <translation>Use in-memory logging for block index database (default: 1)</translation>
+        <translation>使用内存内日志来处理区块索引数据库(默认: 1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="175"/>
         <source>Find peers using DNS lookup (default: 1)</source>
-        <translation>Find peers using DNS lookup (default: 0) {1)?}</translation>
+        <translation>使用DNS查询发现peers(默认: 0) {1)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="176"/>
         <source>Sync checkpoints policy (default: strict)</source>
-        <translation>Sync checkpoints policy (default: strict)</translation>
+        <translation>同步检查点策略(默认: strict)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="177"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</translation>
+        <translation>当钱包交易变化是执行的命令(命令中的%s将被TxID替换)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="178"/>
         <source>Require a confirmations for change (default: 0)</source>
-        <translation>Require a confirmations for change (default: 0)</translation>
+        <translation>对找零需要一个确认(默认: 0)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="179"/>
         <source>Enforce transaction scripts to use canonical PUSH operators (default: 1)</source>
-        <translation>Enforce transaction scripts to use canonical PUSH operators (default: 1)</translation>
+        <translation>使用规范的PUSH操作符来强制日志脚本检查(默认: 1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="180"/>
         <source>Set the number of script verification threads (1-16, 0=auto, default: 0)</source>
-        <translation>Set the number of script verification threads (1-16, 0=auto, default: 0)</translation>
+        <translation>设置脚本检查线程的数量(1-16, 0=自动, 默认: 0)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="181"/>
         <source>When creating transactions, ignore inputs with value less than this (default: %s)</source>
-        <translation>When creating transactions, ignore inputs with value less than this (default: %s)</translation>
+        <translation>创建交易时, 忽略低于这个数量的输入(默认: %s)</translation>
     </message>
 </context>
 </TS>
